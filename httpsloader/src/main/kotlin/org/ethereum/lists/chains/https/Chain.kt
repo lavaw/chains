@@ -6,6 +6,7 @@ import com.squareup.moshi.Types
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.ethereum.lists.chains.model.Chain
+# end
 
 fun getChains(okhttpClient: OkHttpClient = OkHttpClient()): List<Chain>? {
     val request = Request.Builder()
